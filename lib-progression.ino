@@ -10,7 +10,7 @@
 char ssid[] =  ""; //nome do seu wifi
 char password[] = ""; // senha do seu wifi
 char device_id[] = ""; //email que aparece no dashboard
-char http_server[] = "" //servidor interno para usuarios
+char http_server[] = ""; //servidor interno para usuarios
 char mqtt_server[] = "broker.hivemq.com"; //não edite isto
 char client_id[] = "sunfounder-client-sdgvsda"; //não edite isto
 
