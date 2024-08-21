@@ -5,6 +5,7 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 
+//instale as bibliotecas acima pelo arduino IDE
 
 char ssid[] =  ""; //nome do seu wifi
 char password[] = ""; // senha do seu wifi
