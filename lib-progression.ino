@@ -6,11 +6,14 @@
 #include <ArduinoJson.h>
 
 
-char ssid[] =  "";
-char password[] = "";
-char mqtt_server[] = ";
-char client_id[] = "";
-char device_id[] = "";
+char ssid[] =  ""; //nome do seu wifi
+char password[] = ""; // senha do seu wifi
+char device_id[] = ""; //email que aparece no dashboard
+char http_server[] = "" //servidor interno para usuarios
+char mqtt_server[] = "broker.hivemq.com"; //não edite isto
+char client_id[] = "sunfounder-client-sdgvsda"; //não edite isto
+
+
 
 
 
@@ -38,7 +41,7 @@ char msg[MSG_BUFFER_SIZE];
 
 
 void notify(String message){
-  http.begin("secret-server");
+  http.begin(http_server);
 
   http.addHeader("Content-Type", "application/json"); 
   String jsonPayload = "{\"notificar\":\"" + message + "\", \"dispositivo\":\"" + device_id + "\"}";
