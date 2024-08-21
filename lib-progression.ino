@@ -160,6 +160,7 @@ void setup() {
     Serial.println("sem display");
   }
 
+ /* setup dos seus pinos
   pinMode(13,OUTPUT);
   pinMode(14,OUTPUT);
   pinMode(25,OUTPUT);
@@ -167,7 +168,7 @@ void setup() {
   pinMode(27,OUTPUT);
   pinMode(32,OUTPUT);
   pinMode(33,OUTPUT);
-  
+  */
 
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
