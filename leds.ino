@@ -11,8 +11,8 @@
 #define id6 33
 #define id7 32
 
-char ssid[] =  "FAMILIABENETTI_2G";
-char password[] = "Gabi120500";
+char ssid[] =  "";
+char password[] = "";
 char mqtt_server[] = "broker.hivemq.com";
 int value = 0;
 char client_id[] = "sunfounder-client-sdgvsda";
