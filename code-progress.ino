@@ -24,7 +24,8 @@ int ledPin = 26;
 int relayPin = 2;
 int servoPin = 2;
 
-//add more outputs that matches with the network pin as you want
+//edit the pin number to match with the website 
+//if you add more devices will need to include in void setup() on pinMode
 
 
 
